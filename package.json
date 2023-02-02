@@ -2,7 +2,7 @@
   "scripts": {
     "setup": "npm install && composer install && composer update",
     "dev": "npm run serve & touch src/.lock && vite",
-    "serve": "php -S localhost:8080 -t ./ kirby/router.php",
+    "serve": "php -S localhost:3000 -t ./ kirby/router.php",
     "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
